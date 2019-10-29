@@ -10,5 +10,5 @@
 ### Command to start server
 `python3 manage.py runserver`
 
-For forum one go link "localhost:8000/getSample/"
-For forum two go link "localhost:8000/estimateEnergyValues/"
+For forum1 go link "localhost:8000/generateSamplea/"
+For forum2 go link "localhost:8000/estimateEnergyValues/"
