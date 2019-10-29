@@ -1,0 +1,12 @@
+{% load rest_framework %}
+
+<html><body>
+
+<form action="" method="POST" enctype="multipart/form-data">
+    {% csrf_token %}
+    <input name="csv" type="file" accept=".csv">
+    {% render_form serializer %}
+    <input type="submit" value="Submit">
+</form>
+
+</body></html>
